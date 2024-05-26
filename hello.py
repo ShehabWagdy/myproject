@@ -1,3 +1,3 @@
-msg = "hello world"
+msg = "learn git and github"
 
 print(msg)
