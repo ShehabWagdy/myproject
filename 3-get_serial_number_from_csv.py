@@ -2,18 +2,16 @@ import csv
 from netmiko import ConnectHandler
 
  
-
 # Define the CSV headers and the output file path
 
 csv_header = ["Host Name", "IP", "Serial Number"]
 
-output_file_path = "C:\\Users\\shehab.wagdy\\Desktop\\out_serial_number.csv"
+output_file_path = "add the path for the new csv sheet file"
 
  
-
 # Read devices from the input CSV file
 
-with open("C:\\Users\\shehab.wagdy\\Desktop\\serial_number.csv") as file:
+with open("csv sheet file name") as file:
 
     devices = csv.DictReader(file)
 
